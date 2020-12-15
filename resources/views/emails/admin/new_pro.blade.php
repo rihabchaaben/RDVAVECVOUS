@@ -1,0 +1,1 @@
+<h3>Vous avez un nouvel utilisateur inscrit dans la catégorie PRO </h3>

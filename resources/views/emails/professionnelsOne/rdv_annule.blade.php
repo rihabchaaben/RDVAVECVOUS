@@ -1,0 +1,1 @@
+<h3>ALERTE: Votre RDV prévu le ... à été annulé par ... (le demandeur), vous ne serez pas facturez </h3>

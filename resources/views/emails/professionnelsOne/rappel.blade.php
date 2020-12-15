@@ -1,0 +1,1 @@
+<h2>Rappel : votre rdv accepté aura lieu le ..... </h2>

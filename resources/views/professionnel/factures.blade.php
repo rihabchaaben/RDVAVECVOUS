@@ -1,0 +1,194 @@
+@extends('layouts.front.professionnel.master')
+@section('content')
+    <!-- begin:: Content -->
+
+
+
+
+<?php
+
+$months = array(
+    1 => 'Janvier',
+    2 => 'Février',
+    3 => 'Mars',
+    4 => 'Avril',
+    5 => 'Mai',
+    6 => 'Juin',
+    7 => 'Juillet',
+    8 => 'Août',
+    9=> 'Septembre',
+   10=> 'Octobre',
+   11 => 'Novembre',
+   12 => 'Décembre'
+);
+
+
+?>
+
+
+    <div class="kt-content kt-grid__item kt-grid__item--fluid" id="kt_content">
+        <div class="kt-portlet kt-portlet--tabs">
+            <div class="kt-portlet__head bg-blue">
+                <div class="kt-portlet__head-label">
+                    <h3 class="kt-portlet__head-title">
+                        MES FACTURES
+                    </h3>
+                </div>
+
+            </div>
+            <div class="kt-portlet__body">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="kt_widget5_tab1_content">
+                        @if($factures->isEmpty())
+                            <p>AUCUNE FACTURE À CE JOUR</p>
+                        @else
+                            @foreach($factures as $facture)
+                                <div class="kt-widget5">
+                                    <div class="kt-widget5__item">
+                                        <div class="kt-widget5__content">
+                                            <div class="kt-widget5__pic">
+                                                <img class="kt-widget7__img"
+                                                     src="{{asset('/images/logo_typo.png')}}"
+                                                     alt="">
+                                            </div>
+                                            <div class="kt-widget5__section">
+                                                <a href="#" class="kt-widget5__title">
+                                                   Votre facture pour le mois de  {{$months[$facture->mois]}}
+                                                </a>
+                                                <p class="kt-widget5__desc">
+                                                   M(me) {{$facture->professionnel->nom}}
+                                                </p>
+                                                <div class="kt-widget5__info">
+                                                    <span>Nombre de RDV :</span>
+                                                    <span class="kt-font-info">{{$facture->nombre_rdv}} RDV</span>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="kt-widget5__content">
+                                            <div class="kt-widget5__stats">
+                                                <span class="kt-widget5__number">{{$facture->montant}}€</span>
+                                             </div>
+                                           <a href="{{route('pro.mes_factures.generer',$facture->id)}}" target="_blank"> <div class="kt-widget5__stats">
+                                                    <span class="kt-widget5__number"><div class="kt-demo-icon">
+                    <div class="kt-demo-icon__preview">
+                        <i class="fa fa-file-download"></i>
+                    </div>
+
+                </div>
+                                                    </span>
+                                                <span class="kt-widget5__sales">Imprimer</span>
+
+
+                                            </div></a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            @endforeach
+                        @endif
+                    </div>
+
+
+        <hr>
+
+
+
+<!-- 
+    
+                    <div class="tab-content">
+                    <div class="tab-pane active" id="kt_widget2_tab2_content">
+                        <div class="kt-widget2">
+                            @if($factures->isEmpty())
+                                <p>AUCUNE DEMANDE</p>
+                            @else
+                                <table class="table table-striped" id="kt_table_1">
+                                    <thead>
+                                    <tr>
+
+                                        <th>Mois</th>
+                                        <th>Nombre des RDV  acceptes </th>
+                                        <th>Facture N</th>
+                                         
+                                        
+                                    </tr>
+                                    </thead>
+
+                                    <tbody>
+                                   
+
+                                    @foreach($factures as $facture)
+                                            <th> 
+                                                {{$months[$facture->mois]}}
+
+                                            </th>
+                                            <th> 
+                                                {{$facture->nombre_rdv}}  RDV
+
+                                            </th>
+
+                                            <th> 
+                                                Facture{{$facture->id}}
+
+                                            </th>
+                                             
+
+                                        </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table>
+                            @endif
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/dt/jq-2.1.4,jszip-2.5.0,pdfmake-0.1.18,dt-1.10.9,af-2.0.0,b-1.0.3,b-colvis-1.0.3,b-html5-1.0.3,b-print-1.0.3,se-1.0.1/datatables.min.css"/>
+   <script type="text/javascript" src="https://cdn.datatables.net/r/dt/jq-2.1.4,jszip-2.5.0,pdfmake-0.1.18,dt-1.10.9,af-2.0.0,b-1.0.3,b-colvis-1.0.3,b-html5-1.0.3,b-print-1.0.3,se-1.0.1/datatables.min.js"></script>
+
+
+   <script>
+
+$( document ).ready(function() {
+$('#kt_table_1').DataTable({
+         "processing": true,
+          
+         "dom": 'lBfrtip',
+
+         "buttons": [
+            {
+                extend: 'collection',
+                text: 'Export',
+                buttons: [
+                    'copy',
+                    'excel',
+                    'csv',
+                    'pdf',
+                    'print'
+                ]
+                ,
+                exportOptions: {
+              columns: ':visible:not(.notexport)'
+                  }
+            }
+
+            
+        ]
+        
+        });
+});
+   </script>
+
+
+ -->
+
+
+    <!-- end:: Content -->
+
+@endsection
