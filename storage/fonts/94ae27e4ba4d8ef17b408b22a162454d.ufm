@@ -1,0 +1,210 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright 
+FontName Flaticon
+FontSubfamily Regular
+UniqueID FontForge 2.0 : Flaticon : 25-2-2019
+FullName Flaticon
+Version Version 001.000 
+PostScriptName Flaticon
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -125
+FontHeightOffset 90
+Ascender 889
+Descender -139
+FontBBox -27 -139 1025 889
+StartCharMetrics 190
+U 32 ; WX 391 ; N space ; G 3
+U 61696 ; WX 1000 ; N 001-notification ; G 4
+U 61697 ; WX 1000 ; N 002-settings ; G 5
+U 61698 ; WX 1000 ; N 003-search ; G 6
+U 61699 ; WX 1000 ; N 004-delete ; G 7
+U 61700 ; WX 1000 ; N 005-psd ; G 8
+U 61701 ; WX 1000 ; N 006-list ; G 9
+U 61702 ; WX 1000 ; N 007-box ; G 10
+U 61703 ; WX 1000 ; N 008-download ; G 11
+U 61704 ; WX 1000 ; N 009-shield ; G 12
+U 61705 ; WX 1000 ; N 010-paperplane ; G 13
+U 61706 ; WX 1000 ; N 011-avatar ; G 14
+U 61707 ; WX 1000 ; N 012-bell ; G 15
+U 61708 ; WX 1000 ; N 013-fax ; G 16
+U 61709 ; WX 1000 ; N 014-chart2 ; G 17
+U 61710 ; WX 1000 ; N 015-supermarket ; G 18
+U 61711 ; WX 1000 ; N 016-phone ; G 19
+U 61712 ; WX 1000 ; N 017-envelope ; G 20
+U 61713 ; WX 1000 ; N 018-pin ; G 21
+U 61714 ; WX 1000 ; N 019-chat ; G 22
+U 61715 ; WX 1000 ; N 020-chart ; G 23
+U 61716 ; WX 1000 ; N 021-infographic ; G 24
+U 61717 ; WX 1000 ; N 022-grids ; G 25
+U 61718 ; WX 1000 ; N 023-menu ; G 26
+U 61719 ; WX 1000 ; N 024-plus ; G 27
+U 61720 ; WX 1000 ; N 025-list-1 ; G 28
+U 61721 ; WX 1000 ; N 026-talk ; G 29
+U 61722 ; WX 1000 ; N 027-file ; G 30
+U 61723 ; WX 1000 ; N 028-user ; G 31
+U 61724 ; WX 1000 ; N 029-line-chart ; G 32
+U 61725 ; WX 1000 ; N 030-percentage ; G 33
+U 61726 ; WX 1000 ; N 031-menu-1 ; G 34
+U 61727 ; WX 1000 ; N 032-paper-plane ; G 35
+U 61728 ; WX 1000 ; N 033-menu-2 ; G 36
+U 61729 ; WX 1000 ; N 034-shopping-cart ; G 37
+U 61730 ; WX 1000 ; N 035-pie-chart ; G 38
+U 61731 ; WX 1000 ; N 036-box-1 ; G 39
+U 61732 ; WX 1000 ; N 037-map ; G 40
+U 61733 ; WX 1000 ; N 038-favourite ; G 41
+U 61734 ; WX 1000 ; N 039-checking ; G 42
+U 61735 ; WX 1000 ; N 040-safe ; G 43
+U 61736 ; WX 1000 ; N 041-heart-rate-monitor ; G 44
+U 61737 ; WX 1000 ; N 042-layers ; G 45
+U 61738 ; WX 1000 ; N 043-delivery-package ; G 46
+U 61739 ; WX 1000 ; N 044-sms ; G 47
+U 61740 ; WX 1000 ; N 045-image-file ; G 48
+U 61741 ; WX 1000 ; N 046-plus-1 ; G 49
+U 61742 ; WX 1000 ; N 047-send ; G 50
+U 61743 ; WX 1000 ; N 048-graphic-design ; G 51
+U 61744 ; WX 1000 ; N 049-cup ; G 52
+U 61745 ; WX 1000 ; N 050-website ; G 53
+U 61746 ; WX 1000 ; N 051-gift ; G 54
+U 61747 ; WX 1000 ; N 052-chronometer ; G 55
+U 61748 ; WX 1000 ; N 053-bar-chart ; G 56
+U 61749 ; WX 1000 ; N 054-browser ; G 57
+U 61750 ; WX 1000 ; N 055-digital-marketing ; G 58
+U 61751 ; WX 1000 ; N 056-calendar ; G 59
+U 61752 ; WX 1000 ; N 057-calendar-1 ; G 60
+U 61753 ; WX 1000 ; N 058-rocket ; G 61
+U 61754 ; WX 1000 ; N 059-analytics ; G 62
+U 61755 ; WX 1000 ; N 060-pie-chart-1 ; G 63
+U 61756 ; WX 1000 ; N 061-pie-chart-2 ; G 64
+U 61757 ; WX 1000 ; N 062-analytics-1 ; G 65
+U 61758 ; WX 1000 ; N 063-google-drive-file ; G 66
+U 61759 ; WX 1000 ; N 064-pie-chart-3 ; G 67
+U 61760 ; WX 1000 ; N 065-poll-symbol ; G 68
+U 61761 ; WX 1000 ; N 066-gear ; G 69
+U 61762 ; WX 1000 ; N 067-magnifier-tool ; G 70
+U 61763 ; WX 1000 ; N 068-add ; G 71
+U 61764 ; WX 1000 ; N 069-cube ; G 72
+U 61765 ; WX 1000 ; N 070-gift-1 ; G 73
+U 61766 ; WX 1000 ; N 071-list-2 ; G 74
+U 61767 ; WX 1000 ; N 072-shopping-cart-1 ; G 75
+U 61768 ; WX 1000 ; N 073-calendar-2 ; G 76
+U 61769 ; WX 1000 ; N 074-laptop ; G 77
+U 61770 ; WX 1000 ; N 075-cube-1 ; G 78
+U 61771 ; WX 1000 ; N 076-layers-1 ; G 79
+U 61772 ; WX 1000 ; N 077-chat-1 ; G 80
+U 61773 ; WX 1000 ; N 078-copy ; G 81
+U 61774 ; WX 1000 ; N 079-paper ; G 82
+U 61775 ; WX 1000 ; N 080-hospital ; G 83
+U 61776 ; WX 1000 ; N 081-calendar-3 ; G 84
+U 61777 ; WX 1000 ; N 082-speaker ; G 85
+U 61778 ; WX 1000 ; N 083-pie-chart-4 ; G 86
+U 61779 ; WX 1000 ; N 084-schedule ; G 87
+U 61780 ; WX 1000 ; N 085-expand ; G 88
+U 61781 ; WX 1000 ; N 086-menu-3 ; G 89
+U 61782 ; WX 1000 ; N 087-download-1 ; G 90
+U 61783 ; WX 1000 ; N 088-help ; G 91
+U 61784 ; WX 1000 ; N 089-list-3 ; G 92
+U 61785 ; WX 1000 ; N 090-notepad ; G 93
+U 61786 ; WX 1000 ; N 091-graph ; G 94
+U 61787 ; WX 1000 ; N 092-browser-1 ; G 95
+U 61788 ; WX 1000 ; N 093-photograph ; G 96
+U 61789 ; WX 1000 ; N 094-browser-2 ; G 97
+U 61790 ; WX 1000 ; N 095-hourglass ; G 98
+U 61791 ; WX 1000 ; N 096-mail ; G 99
+U 61792 ; WX 1000 ; N 097-cardiogram ; G 100
+U 61793 ; WX 1000 ; N 098-document ; G 101
+U 61794 ; WX 1000 ; N 099-contract ; G 102
+U 61795 ; WX 1000 ; N 100-graph-1 ; G 103
+U 61796 ; WX 1000 ; N 101-graphic ; G 104
+U 61797 ; WX 1000 ; N 102-position ; G 105
+U 61798 ; WX 1000 ; N 103-soft-icons ; G 106
+U 61799 ; WX 1000 ; N 104-circle-vol-2 ; G 107
+U 61800 ; WX 1000 ; N 105-rocket-1 ; G 108
+U 61801 ; WX 1000 ; N 106-lorry ; G 109
+U 61802 ; WX 1000 ; N 107-cd ; G 110
+U 61803 ; WX 1000 ; N 108-file-1 ; G 111
+U 61804 ; WX 1000 ; N 109-reload ; G 112
+U 61805 ; WX 1000 ; N 110-placeholder ; G 113
+U 61806 ; WX 1000 ; N 111-refresh ; G 114
+U 61807 ; WX 1000 ; N 112-medical-records ; G 115
+U 61808 ; WX 1000 ; N 113-rectangular ; G 116
+U 61809 ; WX 1000 ; N 114-medical-records-1 ; G 117
+U 61810 ; WX 1000 ; N 115-indent-dots ; G 118
+U 61811 ; WX 1000 ; N 116-search-1 ; G 119
+U 61812 ; WX 1000 ; N 117-edit ; G 120
+U 61813 ; WX 1000 ; N 118-new-email ; G 121
+U 61814 ; WX 1000 ; N 119-calendar-4 ; G 122
+U 61815 ; WX 1000 ; N 120-add-circular-button ; G 123
+U 61816 ; WX 1000 ; N 121-close-cross ; G 124
+U 61817 ; WX 1000 ; N 122-attention ; G 125
+U 61818 ; WX 1000 ; N 123-information ; G 126
+U 61819 ; WX 1000 ; N 124-rocket-2 ; G 127
+U 61820 ; WX 1000 ; N 125-maps ; G 128
+U 61821 ; WX 1000 ; N 126-link ; G 129
+U 61822 ; WX 1000 ; N 127-download-symbol ; G 130
+U 61823 ; WX 1000 ; N 128-power ; G 131
+U 61824 ; WX 1000 ; N 129-console ; G 132
+U 61825 ; WX 1000 ; N 130-open-text-book ; G 133
+U 61826 ; WX 1000 ; N 131-download-2 ; G 134
+U 61827 ; WX 1000 ; N 132-zig-zag-line-sign ; G 135
+U 61828 ; WX 1000 ; N 133-tools-and-utensils ; G 136
+U 61829 ; WX 1000 ; N 134-crisp-icons ; G 137
+U 61830 ; WX 1000 ; N 135-trash ; G 138
+U 61831 ; WX 1000 ; N 136-lock ; G 139
+U 61832 ; WX 1000 ; N 137-bell-1 ; G 140
+U 61833 ; WX 1000 ; N 138-bell-alarm-symbol ; G 141
+U 61834 ; WX 1000 ; N 139-setup ; G 142
+U 61835 ; WX 1000 ; N 140-menu-4 ; G 143
+U 61836 ; WX 1000 ; N 141-architecture-and-city ; G 144
+U 61837 ; WX 1000 ; N 142-shelter ; G 145
+U 61838 ; WX 1000 ; N 143-add-1 ; G 146
+U 61839 ; WX 1000 ; N 144-checkmark ; G 147
+U 61840 ; WX 1000 ; N 145-circular-arrow ; G 148
+U 61841 ; WX 1000 ; N 146-user-outline-symbol ; G 149
+U 61842 ; WX 1000 ; N 147-rhombus ; G 150
+U 61843 ; WX 1000 ; N 148-crisp-icons-1 ; G 151
+U 61844 ; WX 1000 ; N 149-soft-icons-1 ; G 152
+U 61845 ; WX 1000 ; N 150-hexagonal ; G 153
+U 61846 ; WX 1000 ; N 151-time ; G 154
+U 61847 ; WX 1000 ; N 152-contrast ; G 155
+U 61848 ; WX 1000 ; N 153-note ; G 156
+U 61849 ; WX 1000 ; N 154-telegram-logo ; G 157
+U 61850 ; WX 1000 ; N 155-hangouts-logo ; G 158
+U 61851 ; WX 1000 ; N 156-analytics-2 ; G 159
+U 61852 ; WX 1000 ; N 157-wifi ; G 160
+U 61853 ; WX 1000 ; N 158-protected ; G 161
+U 61854 ; WX 1000 ; N 159-drop ; G 162
+U 61855 ; WX 1000 ; N 160-mail-1 ; G 163
+U 61856 ; WX 1000 ; N 161-delivery-truck ; G 164
+U 61857 ; WX 1000 ; N 162-writing ; G 165
+U 61858 ; WX 1000 ; N 163-calendar-5 ; G 166
+U 61859 ; WX 1000 ; N 164-protection ; G 167
+U 61860 ; WX 1000 ; N 165-calendar-6 ; G 168
+U 61861 ; WX 1000 ; N 166-calendar-7 ; G 169
+U 61862 ; WX 1000 ; N 167-calendar-8 ; G 170
+U 61863 ; WX 1000 ; N 168-bell-2 ; G 171
+U 61864 ; WX 1000 ; N 169-hourglass-1 ; G 172
+U 61865 ; WX 1000 ; N 170-next ; G 173
+U 61866 ; WX 1000 ; N 171-chat-2 ; G 174
+U 61867 ; WX 1000 ; N 172-correct ; G 175
+U 61868 ; WX 1000 ; N 173-right-arrow ; G 176
+U 61869 ; WX 1000 ; N 174-down-arrow ; G 177
+U 61870 ; WX 1000 ; N 175-photo-camera ; G 178
+U 61871 ; WX 1000 ; N 176-fast-next ; G 179
+U 61872 ; WX 1000 ; N 177-fast-back ; G 180
+U 61873 ; WX 1000 ; N 178-down ; G 181
+U 61874 ; WX 1000 ; N 179-back ; G 182
+U 61875 ; WX 1000 ; N 180-up ; G 183
+U 61876 ; WX 1000 ; N 181-arrow-down ; G 184
+U 61877 ; WX 1000 ; N 182-arrow-up ; G 185
+U 61878 ; WX 1000 ; N 183-accept ; G 186
+U 61879 ; WX 1000 ; N 184-sort ; G 187
+U 61880 ; WX 1000 ; N 185-arrow ; G 188
+U 61881 ; WX 998 ; N 186-back-1 ; G 189
+EndCharMetrics
+EndFontMetrics
