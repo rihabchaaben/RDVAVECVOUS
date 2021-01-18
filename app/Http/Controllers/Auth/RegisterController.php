@@ -86,7 +86,7 @@ class RegisterController extends Controller
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
             'agree' => ['required'],
-            'role' => ['required'],
+           'role' => ['required'],
 //            'g-recaptcha-response' => 'required|recaptcha',
 //            'g-recaptcha-response' => 'required',
 

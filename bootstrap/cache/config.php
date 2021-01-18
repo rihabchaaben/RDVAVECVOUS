@@ -1,17 +1,17 @@
 <?php return array (
   'app' => 
   array (
-    'name' => 'RDV',
+    'name' => 'Laravel',
     'env' => 'local',
-    'GC_ACCESS_TOKEN' => 'sandbox_gKObuYoBo3R-3L2KKipffziU5AqQzLuf8Ikhz0l1',
+    'GC_ACCESS_TOKEN' => NULL,
     'debug' => true,
-    'url' => 'https://clients.rdvavecvous.com',
+    'url' => 'http://localhost',
     'asset_url' => NULL,
     'timezone' => 'UTC',
     'locale' => 'fr',
     'fallback_locale' => 'fr',
     'faker_locale' => 'fr_FR',
-    'key' => 'base64:WaYEAzH72huOTcw3BRbJc5sv2MRo1DTh1CbrSwJHh0k=',
+    'key' => 'base64:oljTKn8eGqb3XTEYDW3pXoIQM/drKuwSK3t2oFyK6VA=',
     'cipher' => 'AES-256-CBC',
     'providers' => 
     array (
@@ -182,7 +182,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => '/home/rdvavecvbk/clients/storage/framework/cache/data',
+        'path' => 'C:\\xampp\\htdocs\\projetv4\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -214,13 +214,13 @@
       'dynamodb' => 
       array (
         'driver' => 'dynamodb',
-        'key' => NULL,
-        'secret' => NULL,
+        'key' => '',
+        'secret' => '',
         'region' => 'us-east-1',
         'table' => 'cache',
       ),
     ),
-    'prefix' => 'rdv_cache',
+    'prefix' => 'laravel_cache',
   ),
   'database' => 
   array (
@@ -237,11 +237,11 @@
       'mysql' => 
       array (
         'driver' => 'mysql',
-        'host' => 'rdvavecvbkcompte.mysql.db',
+        'host' => '127.0.0.1',
         'port' => '3306',
         'database' => 'rdvavecvbkcompte',
-        'username' => 'rdvavecvbkcompte',
-        'password' => 'Benbeniamb2020',
+        'username' => 'root',
+        'password' => '',
         'unix_socket' => '',
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_unicode_ci',
@@ -256,11 +256,11 @@
       'pgsql' => 
       array (
         'driver' => 'pgsql',
-        'host' => 'rdvavecvbkcompte.mysql.db',
+        'host' => '127.0.0.1',
         'port' => '3306',
         'database' => 'rdvavecvbkcompte',
-        'username' => 'rdvavecvbkcompte',
-        'password' => 'Benbeniamb2020',
+        'username' => 'root',
+        'password' => '',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -270,11 +270,11 @@
       'sqlsrv' => 
       array (
         'driver' => 'sqlsrv',
-        'host' => 'rdvavecvbkcompte.mysql.db',
+        'host' => '127.0.0.1',
         'port' => '3306',
         'database' => 'rdvavecvbkcompte',
-        'username' => 'rdvavecvbkcompte',
-        'password' => 'Benbeniamb2020',
+        'username' => 'root',
+        'password' => '',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -310,10 +310,10 @@
     'orientation' => 'portrait',
     'defines' => 
     array (
-      'font_dir' => '/home/rdvavecvbk/clients/storage/fonts/',
-      'font_cache' => '/home/rdvavecvbk/clients/storage/fonts/',
-      'temp_dir' => '/tmp',
-      'chroot' => '/home/rdvavecvbk/clients',
+      'font_dir' => 'C:\\xampp\\htdocs\\projetv4\\storage\\fonts/',
+      'font_cache' => 'C:\\xampp\\htdocs\\projetv4\\storage\\fonts/',
+      'temp_dir' => 'C:\\Users\\FATIMA~1\\AppData\\Local\\Temp',
+      'chroot' => 'C:\\xampp\\htdocs\\projetv4',
       'enable_font_subsetting' => false,
       'pdf_backend' => 'CPDF',
       'default_media_type' => 'screen',
@@ -389,7 +389,7 @@
     ),
     'temporary_files' => 
     array (
-      'local_path' => '/tmp',
+      'local_path' => 'C:\\Users\\FATIMA~1\\AppData\\Local\\Temp',
       'remote_disk' => NULL,
     ),
   ),
@@ -402,27 +402,27 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => '/home/rdvavecvbk/clients/storage/app',
+        'root' => 'C:\\xampp\\htdocs\\projetv4\\storage\\app',
       ),
       'uploads' => 
       array (
         'driver' => 'local',
-        'root' => '/home/rdvavecvbk/clients/public/storage',
+        'root' => 'C:\\xampp\\htdocs\\projetv4\\public\\storage',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => '/home/rdvavecvbk/clients/storage/app/public',
-        'url' => 'https://clients.rdvavecvous.com/storage',
+        'root' => 'C:\\xampp\\htdocs\\projetv4\\storage\\app/public',
+        'url' => 'http://localhost/storage',
         'visibility' => 'public',
       ),
       's3' => 
       array (
         'driver' => 's3',
-        'key' => NULL,
-        'secret' => NULL,
-        'region' => NULL,
-        'bucket' => NULL,
+        'key' => '',
+        'secret' => '',
+        'region' => 'us-east-1',
+        'bucket' => '',
         'url' => NULL,
       ),
     ),
@@ -458,13 +458,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => '/home/rdvavecvbk/clients/storage/logs/laravel.log',
+        'path' => 'C:\\xampp\\htdocs\\projetv4\\storage\\logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => '/home/rdvavecvbk/clients/storage/logs/laravel.log',
+        'path' => 'C:\\xampp\\htdocs\\projetv4\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -528,7 +528,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => '/home/rdvavecvbk/clients/resources/views/vendor/mail',
+        0 => 'C:\\xampp\\htdocs\\projetv4\\resources\\views/vendor/mail',
       ),
     ),
     'log_channel' => NULL,
@@ -606,8 +606,8 @@
       'sqs' => 
       array (
         'driver' => 'sqs',
-        'key' => NULL,
-        'secret' => NULL,
+        'key' => '',
+        'secret' => '',
         'prefix' => 'https://sqs.us-east-1.amazonaws.com/your-account-id',
         'queue' => 'your-queue-name',
         'region' => 'us-east-1',
@@ -655,8 +655,8 @@
     ),
     'ses' => 
     array (
-      'key' => NULL,
-      'secret' => NULL,
+      'key' => '',
+      'secret' => '',
       'region' => 'us-east-1',
     ),
     'sparkpost' => 
@@ -687,7 +687,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => '/home/rdvavecvbk/clients/storage/framework/sessions',
+    'files' => 'C:\\xampp\\htdocs\\projetv4\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -696,7 +696,7 @@
       0 => 2,
       1 => 100,
     ),
-    'cookie' => 'rdv_session',
+    'cookie' => 'laravel_session',
     'path' => '/',
     'domain' => NULL,
     'secure' => false,
@@ -707,9 +707,9 @@
   array (
     'paths' => 
     array (
-      0 => '/home/rdvavecvbk/clients/resources/views',
+      0 => 'C:\\xampp\\htdocs\\projetv4\\resources\\views',
     ),
-    'compiled' => '/home/rdvavecvbk/clients/storage/framework/views',
+    'compiled' => 'C:\\xampp\\htdocs\\projetv4\\storage\\framework\\views',
   ),
   'debug-server' => 
   array (
