@@ -92,7 +92,43 @@
     <!--end::Layout Skins -->
     <link rel="shortcut icon" href="../../assets/media/logos/favicon.ico"/>
  {{-- <script src='https://www.google.com/recaptcha/api.js'></script> --}}
+<style>
 
+        /* radio btn style    */
+        label > input[type="radio"] {
+            display: none;
+            }
+            label > input[type="radio"] + *::before {
+            content: "";
+            display: inline-block;
+            vertical-align: bottom;
+            width: 1.3rem;
+            height: 1.3rem;
+            margin-right: 0.3rem;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 0.1rem;
+            border-color: gray;
+            }
+            label > input[type="radio"]:checked + * {
+            color: ;
+            }
+            label > input[type="radio"]:checked + *::before {
+            background: radial-gradient(#2c77f4 0%, #2c77f4 90%, transparent 50%, transparent);
+            
+            border-color: #2c77f4;
+            }
+
+            /* basic layout */
+            fieldset {
+            margin: 20px;
+            max-width: 400px;
+            }
+            label > input[type="radio"] + * {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            } 
+</style>
 </head>
 
 <!-- end::Head -->
@@ -170,14 +206,14 @@
 
                                             <div class="col-9">
                                                 <div class="kt-radio-inline">
-                                                    <label class="kt-radio kt-radio--bold kt-radio--brand">
-                                                        <input type="radio" name="role" value="2"> Professionelle
-                                                        <span></span>
+                                                    <label >
+                                                        <input type="radio" name="role" value="2">
+                                                        <span> Professionelle</span>
                                                     </label>
-                                                    <label class="kt-radio kt-radio--bold kt-radio--brand">
+                                                    <label >
                                                         <input type="radio" name="role" value="3">
-                                                        Demandeur
-                                                        <span></span>
+                                                       
+                                                        <span> Demandeur</span>
                                                     </label>
 
                                                 </div>

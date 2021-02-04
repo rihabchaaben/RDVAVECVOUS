@@ -93,7 +93,7 @@
         }
         #obligatoire{
             /* background-color:   #1dc9b7; */
-            background-color:   #0A8396;
+            background-color:   #1DC9B7;
             font-size: 20px;
         }
         .table-center i{
